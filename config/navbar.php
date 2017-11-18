@@ -37,33 +37,39 @@ return [
 
 
 
-/*
-    // Used as menu together with responsive menu
-    // Name of this menu
-    "navbarMax" => [
-        // Use for styling the menu
-        "id" => "rm-menu",
-        "wrapper" => null,
-        "class" => "rm-default rm-mobile",
 
-        // Here comes the menu structure
-        "items" => [
+// Used as menu together with responsive menu
+// Name of this menu
+"navbarMax" => [
+    // Use for styling the menu
+    "id" => "rm-menu",
+    "wrapper" => null,
+    "class" => "rm-default rm-mobile",
 
-            "report" => [
-                "text"  => t("Report"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
-                "mark-if-parent" => true,
-            ],
+    // Here comes the menu structure
+    "items" => [
 
-            "about" => [
-                "text"  => t("About"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
-            ],
+        "report" => [
+            "text"  => t("Report"),
+            "url"   => $this->di->get("url")->create("report"),
+            "title" => t("Reports from kmom assignments"),
+            "mark-if-parent" => true,
+        ],
+
+        "about" => [
+            "text"  => t("About"),
+            "url"   => $this->di->get("url")->create("about"),
+            "title" => t("About this website")
+        ],
+
+        "test" => [
+            "text"  => t("Test"),
+            "url"   => $this->di->get("url")->create("test"),
+            "title" => t("Test")
         ],
     ],
-*/
+],
+
 
 
     /**

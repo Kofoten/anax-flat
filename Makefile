@@ -118,7 +118,7 @@ less-lint: less
 theme:
 	@$(call HELPTEXT,$@)
 	$(MAKE) -C theme less-install
-
+	cp theme/build/css/style.min.css htdocs/css/
 
 
 # target: test                - Run tests.
