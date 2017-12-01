@@ -32,6 +32,19 @@ return [
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Test")
             ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("Typography")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("Potatis"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -66,6 +79,19 @@ return [
                 "text"  => t("Test"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Test")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("Typography")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("Potatis"),
+                "mark-if-parent" => true,
             ],
         ],
     ],
