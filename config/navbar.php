@@ -100,6 +100,13 @@ return [
                 "title" => t("Potatis"),
                 "mark-if-parent" => true,
             ],
+
+            "analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
