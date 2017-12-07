@@ -8,7 +8,7 @@ All data finns i den länkade Excel-filen: [PageLoadTimes.xlsx](https://files.ra
 
 ###Archlinux.org
 
-![Archlinux.org](image/archlinux.png?w=960)
+[![Archlinux.org](image/archlinux.png?w=960)](image/archlinux.png)
 [https://www.archlinux.org/](https://www.archlinux.org/)
 
 Mätvärden DevTools
@@ -33,7 +33,7 @@ Med mätdatat i bakhuvudet så känns det som att aktivera komprimering är en b
 
 ###Wikipedia.org
 
-![Wikipedia.org](image/wikipedia.png?w=960)
+[![Wikipedia.org](image/wikipedia.png?w=960)](image/wikipedia.png)
 [https://sv.wikipedia.org/wiki/Portal:Huvudsida](https://sv.wikipedia.org/wiki/Portal:Huvudsida)
 
 Mätvärden DevTools
@@ -59,7 +59,7 @@ Jag blir förvånad över att se att denna sida inte utnyttjar caching till full
 
 ###Taxicaller.com
 
-![Taxicaller.com](image/taxicaller.png?w=960)
+[![Taxicaller.com](image/taxicaller.png?w=960)](image/taxicaller.png)
 [https://www.taxicaller.com/en/](https://www.taxicaller.com/en/)
 
 Mätvärden DevTools
