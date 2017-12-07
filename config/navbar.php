@@ -52,6 +52,19 @@ return [
                 "title" => t("Analys"),
                 "mark-if-parent" => true,
             ],
+
+            "images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images")
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -105,6 +118,19 @@ return [
                 "text"  => t("Analys"),
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("Analys"),
+                "mark-if-parent" => true,
+            ],
+
+            "images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images")
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg"),
                 "mark-if-parent" => true,
             ],
         ],
