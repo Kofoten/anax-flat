@@ -87,11 +87,45 @@ return [
 
         "separator2" => "------------------------------------------------",
 
-        "fun"       => [
-            "title"      => "All fun, test and play, make it stand out!",
-            "class"      => "fun",
+        "369A"       => [
+            "title"      => "Kursmoment6 Designelement Krav 3, 6, 9 och 10",
+            "class"      => "tresexniotio",
             "stylesheets" => [
-              "css/style.min.css"
+              "css/themes.min.css"
+            ]
+        ],
+
+        "58"       => [
+            "title"      => "Kursmoment6 Designelement Krav 5 och 8",
+            "class"      => "fematta",
+            "stylesheets" => [
+              "css/themes.min.css"
+            ]
+        ],
+
+        "479"       => [
+            "title"      => "Kursmoment6 Designelement Krav 4, 7 och 9",
+            "class"      => "fyrasjunio",
+            "stylesheets" => [
+              "css/themes.min.css"
+            ]
+        ],
+
+        "separator3" => "------------------------------------------------",
+
+        "FoSc"       => [
+            "title"      => "Kursmoment6 Designprinciper Form och Skalning",
+            "class"      => "fosc",
+            "stylesheets" => [
+              "css/themes.min.css"
+            ]
+        ],
+
+        "BaUn"       => [
+            "title"      => "Kursmoment6 Designprinciper Balans och Union",
+            "class"      => "baun",
+            "stylesheets" => [
+              "css/themes.min.css"
             ]
         ],
     ]
