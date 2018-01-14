@@ -77,6 +77,13 @@ return [
                 "url"   => $this->di->get("url")->create("design-principle"),
                 "title" => t("Designprinciper")
             ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme-kmom10"),
+                "title" => t("Teman för kmom10"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -156,6 +163,13 @@ return [
                 "text"  => t("Designprinciper"),
                 "url"   => $this->di->get("url")->create("design-principle"),
                 "title" => t("Designprinciper")
+            ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme-kmom10"),
+                "title" => t("Teman för kmom10"),
+                "mark-if-parent" => true,
             ],
         ],
     ],
